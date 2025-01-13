@@ -34,9 +34,55 @@ form {
   font-weight: unset;
 }
 
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
 #sign-in,
 #sign-up {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#sign-in-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-submit-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.form-input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#state {
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 400px;
 }
 
 a {
